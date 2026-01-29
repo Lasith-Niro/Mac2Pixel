@@ -56,7 +56,7 @@ def get_remote_file_size(device, path):
 @click.argument('dest', type=click.Path(), default=".")
 @click.option('--device', '-s', help='Target device ID')
 def main(src, dest, device):
-    """Copy files from Pixel (Android) phone to Mac via ADB (Pull)."""
+    """MacDrop: Copy files from Pixel (Android) phone to Mac via ADB (Pull)."""
     
     # 1. Check for devices
     devices = get_devices()

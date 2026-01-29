@@ -56,7 +56,7 @@ def get_file_size(path):
 @click.argument('dest', type=str, default="/sdcard/Music/Adhimathra")
 @click.option('--device', '-s', help='Target device ID')
 def main(src, dest, device):
-    """Copy files from Mac to Pixel (Android) phone via ADB."""
+    """MacDrop: Copy files from Mac to Pixel (Android) phone via ADB."""
     
     # 1. Check for devices
     devices = get_devices()

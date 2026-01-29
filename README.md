@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="images/logo.png" width="200" alt="Mac2Pixel Logo">
+  <img src="images/logo.png" width="200" alt="MacDrop Logo">
 </p>
 
-# Mac2Pixel CLI
+# MacDrop CLI
 
-A premium, simple Command Line Interface to copy files between macOS and an Android (Pixel) phone via ADB. This tool bypasses the limitations of macOS not natively supporting MTP (Media Transfer Protocol).
+A premium, simple Command Line Interface to copy files between macOS and an Android (Pixel) phone via ADB. MacDrop bypasses the limitations of macOS not natively supporting MTP (Media Transfer Protocol).
 
 ## ✨ Features
 
-- **Mac2Pixel**: Fast file/folder transfer from Mac to Pixel.
-- **Pixel2Mac**: Convenient download of files/folders from Pixel to Mac.
+- **Upload**: Fast file/folder transfer from Mac to Android.
+- **Download**: Convenient download of files/folders from Android to Mac.
 - **Progress Tracking**: Real-time progress bars for transfers.
 - **Multi-Device Support**: Easily target specific devices when multiple are connected.
 
